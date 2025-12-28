@@ -1,5 +1,4 @@
 # CityMate——基于MVVM的城市信息助手
-![CityMate Cover](https://via.placeholder.com/1200x400?text=CityMate+-+城市信息助手)
 
 ## 1. 项目介绍
 CityMate 是一款基于 Android Studio 开发的轻量化城市信息助手应用，采用 Kotlin 语言构建，核心架构为 MVVM，结合 Jetpack Compose 声明式 UI 框架与 Retrofit 网络请求库，通过对接第三方开放 API 实现**天气查询**、**城市新闻浏览**、**智能对话交互**三大核心功能。
@@ -46,8 +45,6 @@ CityMate 是一款基于 Android Studio 开发的轻量化城市信息助手应�
 | 后置条件     | 成功展示新闻列表；失败时给出提示，支持手动刷新                       |
 
 #### 3.1.3 智能对话子系统
-![智能对话用例图](./images/readme.md/用例图-智能对话.drawio.png)
-
 | 项目         | 描述                                                                 |
 |--------------|----------------------------------------------------------------------|
 | 名称         | 智能对话子系统                                                       |
@@ -74,8 +71,6 @@ CityMate 是一款基于 Android Studio 开发的轻量化城市信息助手应�
 
 ## 4. 概要设计
 ### 4.1 架构概要设计
-![系统架构图](./images/readme.md/架构图-架构图.drawio.png)
-
 系统采用 MVVM 三层架构设计，自上而下分为**表示层**、**业务逻辑层**、**数据层**，各层单向依赖、职责清晰，降低模块耦合度。
 
 #### 4.1.1 表示层（Presentation Layer）
